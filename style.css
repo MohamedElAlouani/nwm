@@ -1,0 +1,415 @@
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+#container {
+	width: 100wh;
+	height: 100vh;
+	font-family: Lato;
+	margin: 0 auto;
+	position: relative;
+}
+
+#right {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	float: right;
+	transition: all 0.5s ease;
+}
+
+#rightContainer {
+	color:white;
+	font-size: 20px;
+	height: 60%;
+	width: 35%;
+	max-width: 350px;
+	margin-left: 60%;
+	margin-top: 8%;
+	position: relative;
+}
+
+#home {
+	position: absolute;
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+#aboutUs {
+	position: absolute;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+#positions {	
+	position: absolute;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+#apply {	
+	position: absolute;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+#left {
+	height: 100%;
+	width: 50%;
+	background-color: white;
+	position: relative;
+	float: left;
+	transition: all 0.5s ease;
+}
+
+#logoButtons {
+	height: 300px;
+	width: 600px;
+}
+
+#nwm {
+	height: 45%;
+	width: 54%;
+	margin-left: 25%;
+	margin-top: 20%;
+}
+
+#nwm1 {
+	height: 75%;
+	width: 1%;
+	margin-top: 4%;
+	position: relative;
+	float:left;
+	border-radius: 5px;
+}
+
+#nwm11 {
+	height: 100%;
+	width: 100%;
+	background-color: #9999C3;
+	position:absolute;
+	border-radius: 5px;
+}
+
+#nwm12  {
+	height: 100%;
+	width: 100%;
+	background-color: #BFBFD9;
+	float: left;
+	position: absolute;
+	border-radius: 5px;	
+	transition: all 0.5s ease;
+}
+
+
+#nwm2 {
+	height: 92%;
+	width: 1%;
+	transform: rotate(-37deg);
+	margin-left: 10.5%;
+	position: relative;
+	float: left;
+	border-radius: 5px;	
+}
+
+#nwm21 {
+	height: 100%;
+	width: 100%;
+	background-color: #BFBFD9;
+	position: absolute;
+	border-radius: 5px;	
+}
+
+#nwm22 {
+	height: 0%;
+	width: 100%;
+	background-color: #9999C3;
+	position: absolute;
+	border-radius: 5px;	
+	transition: all 0.5s ease;
+}
+
+#nwm3 {
+	height: 75%;
+	width: 1%;
+	margin-left: 10.5%;
+	margin-top: 3.5%;
+	position:relative;
+	float: left;
+	border-radius: 5px;
+}
+
+#nwm31 {
+	height: 100%;
+	width: 100%;
+	background-color: #9999C3;
+	position:absolute;
+	border-radius: 5px;
+}
+
+#nwm32 {
+	height: 100%;
+	width: 100%;
+	background-color: #BFBFD9;
+	position:absolute;
+	border-radius: 5px;
+	transition: all 0.5s ease;
+}
+
+#nwm4 {
+	height: 78%;
+	width: 1%;
+	transform: rotate(-20deg);
+	margin-left: 4.5%;
+	margin-top: 3%;
+	position: relative;
+	float: left;
+	border-radius: 5px;	
+}
+
+#nwm41 {
+	height: 100%;
+	width: 100%;
+	background-color: #D6C2C3;
+	position: absolute;
+	border-radius: 5px;	
+}
+
+#nwm42 {
+	height: 0%;
+	width: 100%;
+	background-color: #BB999C;
+	position: absolute;;
+	border-radius: 5px;	
+	transition: all 0.5s ease;
+}
+
+#nwm5 {
+	height: 78%;
+	width: 1%;
+	transform: rotate(20deg);
+	margin-left: 10%;
+	margin-top: 3%;
+	position: relative;
+	float: left;
+	border-radius: 5px;	
+}
+
+#nwm51 {
+	height: 100%;
+	width: 100%;
+	background-color: #BB999C;
+	position: absolute;
+	float: left;
+	border-radius: 5px;	
+}
+
+#nwm52 {
+	height: 100%;
+	width: 100%;
+	background-color: #D6C2C3;
+	position: absolute;
+	float: left;
+	border-radius: 5px;	
+	transition: all 0.5s ease;
+}
+
+#nwm6 {
+	height: 77%;
+	width: 1%;
+	transform: rotate(-20deg);
+	margin-left: 10%;
+	margin-top: 3.5%;
+	position: relative;
+	float: left;	
+	border-radius: 5px;
+}
+
+#nwm61 {
+	height: 100%;
+	width: 100%;
+	background-color: #D6C2C3;
+	position: absolute;
+	float: left;	
+	border-radius: 5px;
+}
+
+#nwm62 {
+	height: 0%;
+	width: 100%;
+	background-color: #BB999C;
+	position: absolute;
+	float: left;	
+	border-radius: 5px;
+	transition: all 0.5s ease;
+}
+
+#nwm7 {
+	height: 78%;
+	width: 1%;
+	transform: rotate(20deg);
+	margin-left: 10%;
+	margin-top: 3%;
+	position: relative;
+	float: left;
+	border-radius: 5px;	
+}
+
+#nwm71 {
+	height: 100%;
+	width: 100%;
+	background-color: #BB999C;
+	position: absolute;
+	border-radius: 5px;	
+}
+
+#nwm72 {
+	height: 100%;
+	width: 100%;
+	background-color: #D6C2C3;
+	position: absolute;
+	border-radius: 5px;	
+	transition: all 0.5s ease;
+}
+
+#nwm8 {
+	height: 43%;
+	width: 1%;
+	background-color: black;
+	transform: rotate(-45deg);
+	margin-top: 2%;
+	margin-left: 10.5%;
+	position: relative;
+	float: left;
+	border-radius: 5px;	
+}
+
+#nwm81 {
+	height: 100%;
+	width: 100%;
+	background-color: #EEAD90;
+	position: absolute;
+	border-radius: 5px;	
+}
+
+#nwm82 {
+	height: 0%;
+	width: 100%;
+	background-color: #E88D67;
+	position: absolute;
+	border-radius: 5px;	
+	transition: all 0.5s ease;
+}
+
+#nwm9 {
+	height: 43%;
+	width: 1%;
+	transform: rotate(45deg);
+	margin-top: 2%;
+	margin-left: 11%;
+	position: relative;
+	float: left;
+	border-radius: 5px;	
+}
+
+#nwm91 {
+	height: 100%;
+	width: 100%;
+	background-color: #E88D67;
+	position: absolute;
+	border-radius: 5px;	
+}
+
+#nwm92 {
+	height: 100%;
+	width: 100%;
+	background-color: #EEAD90;
+	position: absolute;
+	border-radius: 5px;	
+	transition: all 0.5s ease;
+}
+
+#nwm10 {
+	height: 75%;
+	width: 1%;
+	background-color: black;
+	margin-left: 5%;
+	margin-top: 4.5%;
+	position:relative;
+	float: left;
+	border-radius: 5px;
+}
+
+#nwm101 {
+	height: 100%;
+	width: 100%;
+	background-color: #EEAD90;
+	position:absolute;
+	border-radius: 5px;
+}
+
+#nwm102 {
+	height: 0%;
+	width: 100%;
+	background-color: #E88D67;
+	position:absolute;
+	border-radius: 5px;
+	transition: all 0.5s ease;
+}
+
+#name {
+	width: 100%;
+	height: 15%;
+	text-align: center;
+}
+
+#buttons {
+	height: 40%;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.button {
+	height: 100%;
+	width: 25%;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+
+
+.button1 {
+	height: 40%;
+	width: 75%;
+	background-color: black;
+	border-radius: 12%;
+	position: absolute;
+	margin-top: 12.5%;
+	margin-left: 12.5%;
+	transition: all 0.5s ease;
+}
+
+.button2 {
+	height: 36%;
+	width: 71%;
+	background-color: white;
+	border-radius: 12%;
+	position: absolute;
+	margin-top: 14.5%;
+	margin-left: 14.5%;
+	transition: all 0.5s ease;
+}
+
+.buttonName {
+	text-align: center;
+	margin-top: 15%;
+	transition: all 0.5s ease;
+}
+
+
